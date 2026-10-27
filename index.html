@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday P'ออมสิน ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="logo" href="#home">♡ for P'Aomsin</a>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav id="nav">
+    <a href="#home">หน้าแรก</a>
+    <a href="#surprise">เซอร์ไพรส์</a>
+    <a href="#memories">ความทรงจำ</a>
+    <a href="#letter">จดหมาย</a>
+    <a href="#cake">เค้กวันเกิด</a>
+  </nav>
+  <button class="music-btn" id="musicButton">♫ <span id="musicLabel">เปิดเพลง</span></button>
+</header>
+
+<main>
+  <!-- หน้าแรก -->
+  <section class="hero section" id="home">
+    <div class="hero-copy">
+      <p class="eyebrow">A LITTLE GIFT MADE WITH LOVE</p>
+      <h1>Happy Birthday<br><span>P'ออมสิน</span> ♡</h1>
+      <p>ขอหื้อวันนี้เต็มไปด้วยรอยยิ้ม<br>
+        ความรัก และเรื่องราวแสนอบอุ่นเน้อจ้าว</p>
+      <a class="button" href="#surprise">เปิดเซอร์ไพรส์ ✨</a>
+      <p class="small-note">เว็บไซต์เล็ก ๆ ที่ตั้งใจทำหื้อปี้โดยเฉพาะเน้ออิอิ</p>
+    </div>
+
+    <div class="hero-art">
+      <svg viewBox="0 0 440 390" role="img" aria-label="กล่องของขวัญสีชมพู">
+        <defs>
+          <linearGradient id="giftColor" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#ffc4d0"/>
+            <stop offset="1" stop-color="#ee8ba5"/>
+          </linearGradient>
+          <linearGradient id="ribbonColor">
+            <stop stop-color="#fff7c2"/>
+            <stop offset="1" stop-color="#f5d46c"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="220" cy="335" rx="130" ry="15" fill="#bd8e8e" opacity=".2"/>
+        <path d="M70 300 Q45 265 75 245 Q95 230 110 265 Q140 230 160 255 Q175 285 130 310Z" fill="#f5a9b9"/>
+        <path d="M300 300 Q280 265 310 245 Q330 230 345 265 Q370 230 390 255 Q405 285 360 310Z" fill="#f5a9b9"/>
+        <rect x="100" y="175" width="240" height="145" rx="22" fill="url(#giftColor)"/>
+        <rect x="196" y="175" width="48" height="145" fill="url(#ribbonColor)"/>
+        <rect x="88" y="150" width="264" height="45" rx="12" fill="#f7a8bc"/>
+        <rect x="198" y="150" width="44" height="45" fill="url(#ribbonColor)"/>
+        <path d="M220 152 C165 145 155 105 184 100 C208 98 223 125 220 152 C228 120 252 94 272 107 C296 122 268 151 220 152Z" fill="#fff0a7" stroke="#f1d16a" stroke-width="3"/>
+        <circle cx="220" cy="177" r="9" fill="#f6d77a"/>
+        <g fill="#fff9f3">
+          <circle cx="130" cy="220" r="4"/><circle cx="305" cy="240" r="5"/>
+          <circle cx="150" cy="280" r="3"/><circle cx="285" cy="286" r="4"/>
+        </g>
+        <text x="220" y="255" text-anchor="middle" font-size="26" fill="white">♡</text>
+        <g fill="#ffe47c" stroke="#f1d05c" stroke-width="2">
+          <path d="M75 90 L83 110 L103 118 L83 126 L75 146 L67 126 L47 118 L67 110Z"/>
+          <path d="M360 80 L367 97 L385 104 L367 111 L360 129 L353 111 L335 104 L353 97Z"/>
+          <path d="M395 175 L401 188 L415 194 L401 200 L395 214 L389 200 L375 194 L389 188Z"/>
+        </g>
+      </svg>
+    </div>
+    <a class="scroll" href="#surprise">เลื่อนลงเพื่อรับความน่ารัก ↓</a>
+  </section>
+
+  <!-- กล่องเซอร์ไพรส์ -->
+  <section class="section surprise" id="surprise">
+    <div class="section-title">
+      <p class="eyebrow">A TINY SURPRISE</p>
+      <h2>กล่องนี้มีความรักอยู่ข้างใน 🎁</h2>
+      <p>ปี้ออมสินลองกดเปิดกล่องของขวัญดูเน้อ</p>
+    </div>
+
+    <button class="present" id="presentButton" aria-label="เปิดกล่องของขวัญ">
+      <svg viewBox="0 0 220 190">
+        <ellipse cx="110" cy="168" rx="76" ry="10" fill="#c99899" opacity=".2"/>
+        <rect x="43" y="76" width="134" height="82" rx="12" fill="#f4a7bb"/>
+        <rect x="97" y="76" width="26" height="82" fill="#fff0ac"/>
+        <g class="lid">
+          <rect x="33" y="61" width="154" height="26" rx="8" fill="#e995ac"/>
+          <rect x="98" y="61" width="24" height="26" fill="#fff0ac"/>
+          <path d="M110 62 C72 57 72 30 91 31 C105 32 111 48 110 62 C117 43 139 26 151 39 C163 53 139 63 110 62Z" fill="#fff0ac" stroke="#f2d36d" stroke-width="2"/>
+        </g>
+      </svg>
+    </button>
+    <p id="presentHint">แตะกล่องเพื่อเปิดเซอร์ไพรส์ ♡</p>
+
+    <article class="reveal" id="revealCard" hidden>
+      <div class="big-heart">♡</div>
+      <h3>Hap Hap naja P'ออมสิน!</h3>
+      <a href="#memories">ไปดูความทรงจำของเรากัน →</a>
+    </article>
+  </section>
+
+  <!-- แกลเลอรีรูปภาพ -->
+  <section class="section memories" id="memories">
+    <div class="section-title">
+      <p class="eyebrow">OUR SWEET MEMORIES</p>
+      <h2>รูปถ่ายที่อยากเก็บไว้ ♡</h2>
+    </div>
+
+    <div class="gallery">
+      <button class="photo-card" data-index="0">
+        <span class="photo-frame">
+          <img src="images/photo1.jpg" alt="ความทรงจำรูปที่หนึ่ง">
+          <span class="placeholder">♡<small>ใส่รูปที่ 1</small></span>
+        </span>
+        <span class="caption">ภาพที่เต็มไปด้วยความน่ารัก</span>
+      </button>
+      <button class="photo-card" data-index="1">
+        <span class="photo-frame">
+          <img src="images/photo2.jpg" alt="ความทรงจำรูปที่สอง">
+          <span class="placeholder">✿<small>ใส่รูปที่ 2</small></span>
+        </span>
+        <span class="caption">รอยยิ้มที่โคตรจะสดใส</span>
+      </button>
+      <button class="photo-card" data-index="2">
+        <span class="photo-frame">
+          <img src="images/photo3.jpg" alt="ความทรงจำรูปที่สาม">
+          <span class="placeholder">✧<small>ใส่รูปที่ 3</small></span>
+        </span>
+        <span class="caption">ภาพที่ดูกี่ครั้งก็หลงไหล</span>
+      </button>
+    </div>
+    <p class="small-note">คลิกรูปเพื่อเปิดดูภาพขนาดใหญ่</p>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button id="closeLightbox" aria-label="ปิดภาพ">×</button>
+      <img id="largePhoto" alt="ภาพความทรงจำขนาดใหญ่">
+      <p id="photoCaption"></p>
+    </div>
+  </section>
+
+  <!-- จดหมาย -->
+  <section class="section letter-section" id="letter">
+    <article class="letter-card">
+      <div class="sticker">♡ ૮ ˶ᵔ ᵕ ᵔ˶ ა ♡</div>
+      <p class="eyebrow">A LETTER FROM MY HEART</p>
+      <h2>จดหมายถึงปี้ออมสิน 💌</h2>
+      <p class="letter-text" id="letterText">
+        HapHap เน้อจ้าวปี้ออมสินนนน น้องขอหื้อปี้มีความสุขในทุกๆวัน นอนหลับฝันดีในทุกๆคืน คิดสิ่งไหนขอหื้อสมปรารถนา รวยๆเฮงๆ สวยวันสวยคืน ไม่เจ็บไม่ป่วย บ่ปวดหลังเน้อ 5555 ฮักปี้เน้อ♡
+      </p>
+      <p class="signature">ฮักปี้เสมอ — จากน้องข้าวฟ่างตี้ตั้งจัยทำเว็บนี้หื้อเน้อจ้าว ♡</p>
+    </article>
+  </section>
+
+  <!-- ดอกไม้ -->
+  <section class="section flowers">
+    <div class="flower-art">
+      <svg viewBox="0 0 250 300">
+        <path d="M124 270 C123 220 137 178 126 128" fill="none" stroke="#85b88b" stroke-width="10" stroke-linecap="round"/>
+        <path d="M126 222 Q83 216 75 180 Q110 177 126 222Z" fill="#a8cfa6" stroke="#8cbb8f" stroke-width="2"/>
+        <path d="M130 245 Q165 239 177 203 Q145 202 130 245Z" fill="#a8cfa6" stroke="#8cbb8f" stroke-width="2"/>
+        <g fill="#f6b8c8" stroke="#ffe5e9" stroke-width="5">
+          <ellipse cx="126" cy="66" rx="28" ry="43"/>
+          <ellipse cx="160" cy="91" rx="28" ry="43" transform="rotate(55 160 91)"/>
+          <ellipse cx="147" cy="127" rx="28" ry="43" transform="rotate(115 147 127)"/>
+          <ellipse cx="103" cy="124" rx="28" ry="43" transform="rotate(45 103 124)"/>
+          <ellipse cx="91" cy="88" rx="28" ry="43" transform="rotate(-45 91 88)"/>
+        </g>
+        <circle cx="126" cy="101" r="22" fill="#ffdf83" stroke="#f5d26d" stroke-width="3"/>
+        <text x="126" y="109" text-anchor="middle" font-size="20" fill="#fff8df">♡</text>
+        <path d="M52 49 L58 64 L74 70 L58 76 L52 92 L46 76 L30 70 L46 64Z" fill="#ffdf83"/>
+      </svg>
+    </div>
+    <div>
+      <p class="eyebrow">KEEP BLOOMING, ALWAYS</p>
+      <h2>ขอหื้อปี้เบ่งบาน<br>ในแบบของตัวเอง 🌷</h2>
+      <p>ขอหื้อทุกวันมีความอ่อนโยน มีคนฮักและเข้าจัย<br>
+        และมีพื้นที่หื้อปี้เป็นตัวเองได้อย่างเต็มตี้เน้อจ้าว</p>
+    </div>
+  </section>
+
+  <!-- เค้กวันเกิด -->
+  <section class="section cake-section" id="cake">
+    <div class="section-title">
+      <p class="eyebrow">MAKE A WISH</p>
+      <h2>เค้กวันเกิดสำหรับปี้ออมสิน 🎂</h2>
+      <p>อธิษฐานในจัย แล้วกดปุ่มเป่าเทียน</p>
+    </div>
+
+    <div class="cake">
+      <svg viewBox="0 0 420 360" role="img" aria-label="เค้กวันเกิดสีชมพู">
+        <defs>
+          <linearGradient id="cakePink" x1="0" y1="0" x2=".2" y2="1">
+            <stop stop-color="#ffb2c6"/>
+            <stop offset="1" stop-color="#f18ba6"/>
+          </linearGradient>
+          <linearGradient id="frosting" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#fff2f6"/>
+            <stop offset="1" stop-color="#ffdce8"/>
+          </linearGradient>
+          <linearGradient id="candleBlue">
+            <stop stop-color="#a8e8f7"/>
+            <stop offset="1" stop-color="#69cbe9"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="210" cy="314" rx="150" ry="15" fill="#b88d8d" opacity=".2"/>
+        <g fill="#ffdf69">
+          <path d="M73 95 L80 112 L98 119 L80 126 L73 144 L66 126 L48 119 L66 112Z"/>
+          <path d="M337 103 L343 117 L358 123 L343 129 L337 144 L331 129 L316 123 L331 117Z"/>
+        </g>
+        <g id="candleFlame">
+          <path d="M209 54 C183 24 207 5 211 0 C229 32 235 43 211 63Z" fill="#ff9f28"/>
+          <path d="M210 53 C197 37 211 23 214 17 C226 38 224 46 210 53Z" fill="#ffe66d"/>
+        </g>
+        <rect x="197" y="58" width="27" height="104" rx="12" fill="url(#candleBlue)"/>
+        <path d="M199 79 L222 59 L224 79 L199 101Z M199 119 L224 97 L224 117 L199 139Z" fill="#fffaf6"/>
+        <path d="M89 165 Q210 138 331 165 L331 273 Q331 302 304 304 L116 304 Q89 302 89 273Z" fill="url(#cakePink)"/>
+        <path d="M84 151 Q84 124 111 124 L309 124 Q336 124 336 151 L336 205 Q326 220 315 205 Q302 188 289 207 Q276 232 257 211 Q239 192 225 209 Q205 231 188 210 Q171 188 156 208 Q140 230 123 209 Q108 189 96 208 Q84 224 84 202Z" fill="url(#frosting)"/>
+        <ellipse cx="210" cy="151" rx="126" ry="30" fill="#fff4f7"/>
+        <g fill="#9de2ed">
+          <rect x="132" y="145" width="23" height="7" rx="3.5" transform="rotate(-35 132 145)"/>
+          <rect x="252" y="145" width="23" height="7" rx="3.5" transform="rotate(35 252 145)"/>
+        </g>
+        <g fill="#f8d65e">
+          <rect x="166" y="133" width="17" height="7" rx="3.5" transform="rotate(20 166 133)"/>
+          <rect x="233" y="166" width="18" height="7" rx="3.5" transform="rotate(-25 233 166)"/>
+        </g>
+        <g fill="#d9b2f4">
+          <circle cx="112" cy="157" r="5"/><circle cx="184" cy="161" r="5"/><circle cx="282" cy="157" r="5"/>
+        </g>
+        <path d="M76 310 Q210 331 344 310 Q339 334 315 336 L105 336 Q81 333 76 310Z" fill="#ffe8ed"/>
+      </svg>
+    </div>
+    <button class="button" id="blowButton">เป่าเทียน ✨</button>
+    <p class="wish-result" id="wishResult"></p>
+  </section>
+</main>
+
+<footer>Made with love, just for P'Aomsin ♡</footer>
+
+<div class="toast" id="toast" role="status"></div>
+<audio id="birthdayMusic" loop preload="none"></audio>
+<script src="script.js"></script>
+</body>
+</html>
